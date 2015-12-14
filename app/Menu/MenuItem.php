@@ -18,7 +18,7 @@ class MenuItem
     /**
      * MenuItem constructor.
      */
-    public function __construct()
+    public function __construct($id)
     {
     }
 
@@ -117,6 +117,7 @@ class MenuItem
         $data['title'] = $this->title;
         $data['icon'] = $this->icon;
         $data['url'] = $this->url;
+        $data['id'] = $this->id;
 //        $data['role'] = $this->role;
 //        $data['permission'] = $this->permission;
 //        $data['user'] = $this->user;

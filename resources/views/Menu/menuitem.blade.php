@@ -1,4 +1,4 @@
-<li class="active">
+<li class="active" id="{{ $id }}">
     @if ($url != null)
     <a href="{{ $url }}">
     @endif
@@ -8,6 +8,7 @@
             <span>Home</span>
     @if ($url!= null)
     </a>
+    @endif
 </li>
 
 
