@@ -29,8 +29,9 @@ MenuWithAuthentication::menu('anolink')
 
 //Multilevel
 MenuWithAuthentication::menu('multi')->title('Multilevel')->icon('fa-credit-card');
-    MenuWithAuthentication::menu('link2')->title('Link in level 2')->icon('fa-briefcase');
-    MenuWithAuthentication::menu('link3')->title('Link in level 2')->icon('fa-user');
+
+MenuWithAuthentication::menu('link2')->title('Link in level 2')->icon('fa-briefcase');
+MenuWithAuthentication::menu('link3')->title('Link in level 2')->icon('fa-user');
 
 
 //Propi
@@ -38,4 +39,4 @@ MenuWithAuthentication::menu('link4')->title('Últim menú')->icon('fa-dashboard
 
 
 //Afegir un menú a partir de la seva id, que en aquest cas es 'home'.
-$menuHome = MenuWithAuthentication::menu('home');
+//$menuHome = MenuWithAuthentication::menu('home');

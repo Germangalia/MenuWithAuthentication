@@ -18,10 +18,12 @@ class SidebarComposer
         $view->with('menu', array());
     }
 
-    public function getSideBarMenu()
+    public function getSideBarMenu($id)
     {
-        $menu = MenuWithAuthentication::instance()->getMenu();
         return array();
+
+//        $menu = MenuWithAuthentication::instance(1)->getMenu();
+//        return array();
     }
 
 }

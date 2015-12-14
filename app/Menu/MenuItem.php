@@ -11,8 +11,48 @@ namespace MenuWithAuthentication\Menu;
  * Class MenuItem
  * @package MenuWithAuthentication\Menu
  */
+/**
+ * Class MenuItem
+ * @package MenuWithAuthentication\Menu
+ */
 class MenuItem
 {
+    /**
+     * @var
+     */
+    protected static $current;
+    /**
+     * @var
+     */
+    protected $level;
+    /**
+     * @var
+     */
+    protected $subItems;
+    /**
+     * @var
+     */
+    protected $title;
+    /**
+     * @var
+     */
+    protected $icon;
+    /**
+     * @var
+     */
+    protected $url;
+    /**
+     * @var
+     */
+    protected $role;
+    /**
+     * @var
+     */
+    protected $permission;
+    /**
+     * @var
+     */
+    protected $user;
 
 
     /**
@@ -20,6 +60,38 @@ class MenuItem
      */
     public function __construct($id)
     {
+        $this->id = $id;
+
+        if(is_null(static::$current)) {
+            static::$current = $this;
+            $this->level(0);
+        }else{
+            static::$current->addItem($this);
+            $this->level(static::$current->level()+1);
+        }
+    }
+
+    /**
+     * @param $item
+     * @return $this
+     */
+    public function addItem($item)
+    {
+        $this->subItem[] = $item;
+        return $this;
+    }
+
+    /**
+     * @param null $level
+     * @return $this
+     */
+    public function level($level = null)
+    {
+        if($level == null){
+            return $this->level;
+        }
+        $this->level = $level;
+        return $this;
     }
 
     /**
@@ -106,11 +178,17 @@ class MenuItem
         return $this;
     }
 
+    /**
+     * @return string
+     */
     public function __toString()
     {
         return $this->render();
     }
 
+    /**
+     * @return string
+     */
     public function render()
     {
         $data = array();
