@@ -12,7 +12,7 @@
 MenuWithAuthentication::menu()
     ->title('Home')
     ->icona('fa-dashboard')
-    ->rol('home')
+    ->role('home')
     ->permission('home')
     ->user('sergitur')
     ->url('/home');
@@ -34,5 +34,4 @@ MenuWithAuthentication::menu()->title('Multilevel')->icona('fa-credit-card');
 
 
 //Propi
-//Multilevel
 MenuWithAuthentication::menu()->title('Últim menú')->icona('fa-dashboard')->url('http://www.google.com');

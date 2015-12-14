@@ -43,12 +43,13 @@
                 </ul>
             </li>
 
-            <!--
-            foreach() {
-            }
-            -->
 
-            
+            @foreach($menu as $menuitem)
+                {{ $menuitem }}
+
+            @endforeach
+
+
         </ul><!-- /.sidebar-menu -->
     </section>
     <!-- /.sidebar -->
