@@ -9,23 +9,62 @@
 namespace MenuWithAuthentication;
 
 
+use MenuWithAuthentication\Menu\MenuItem;
+
+/**
+ * Class MenuWithAuthentication
+ * @package MenuWithAuthentication
+ */
 class MenuWithAuthentication
 {
 
+    /**
+     * @var null
+     */
+    protected static $instance = null;
 
     /**
-     * MenuWithAuthentication constructor.
+     * @var MenuItem[]
      */
-    public function __construct()
+    protected $menu;
+
+
+//    /**
+//     * MenuWithAuthentication constructor.
+//     */
+//    public function __construct()
+//    {
+//    }
+
+
+    /**
+     * @param $id
+     * @return MenuItem
+     */
+    public static function menu($id)
     {
+
+        return new MenuItem($id);
+
     }
 
-
-    public function menu()
+    /**
+     * @return null|static
+     */
+    public static function instance()
     {
-
-        $menu = new MenuItem();
-        return $menu;
-
+        if( is_null(static::$instance)){
+            return static::$instance = new static;
+        }
+        return static::$instance;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getMenu()
+    {
+        return $this->menu->items();
+    }
+
 }

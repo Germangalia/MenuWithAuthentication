@@ -3,6 +3,8 @@
 namespace MenuWithAuthentication\Http\ViewComposer;
 
 use Illuminate\Contracts\View\View;
+use MenuWithAuthentication\MenuWithAuthentication;
+
 /**
  * Class SidebarComposer
  */

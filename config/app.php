@@ -199,6 +199,7 @@ return [
         'View'      => Illuminate\Support\Facades\View::class,
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
         'Entrust' => 'Zizaco\Entrust\EntrustFacade',
+        'MenuWithAuthentication' => MenuWithAuthentication\MenuWithAuthentication::class,
 
     ],
 

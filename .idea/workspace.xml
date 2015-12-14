@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c517a1a8-5cec-4456-9c22-ed361bb6625d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/MenuWithAuthentication.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/ViewComposer/SidebarComposer.php" afterPath="$PROJECT_DIR$/app/Http/ViewComposer/SidebarComposer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Menu/MenuItem.php" afterPath="$PROJECT_DIR$/app/Menu/MenuItem.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bootstrap/menu.php" afterPath="$PROJECT_DIR$/app/bootstrap/menu.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Menu/menuitem.blade.php" afterPath="$PROJECT_DIR$/resources/views/Menu/menuitem.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/MenuWithAuthentication.php" afterPath="$PROJECT_DIR$/app/MenuWithAuthentication.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
     </list>
     <ignored path="MenuWithAuthentication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-27.291666">
-              <caret line="200" column="52" selection-start-line="200" selection-start-column="52" selection-end-line="200" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.7517241">
+              <caret line="196" column="61" selection-start-line="196" selection-start-column="61" selection-end-line="196" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -51,8 +50,8 @@
       <file leaf-file-name="sidebar.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/partials/sidebar.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+            <state vertical-scroll-proportion="-1.4583334">
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -73,9 +72,11 @@
       <file leaf-file-name="SidebarComposer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/ViewComposer/SidebarComposer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.5">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-              <folding />
+            <state vertical-scroll-proportion="-13.75">
+              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+              <folding>
+                <element signature="e#60#95#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,8 +84,8 @@
       <file leaf-file-name="menu.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/bootstrap/menu.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-25.0">
-              <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
+            <state vertical-scroll-proportion="-6.875">
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -93,18 +94,18 @@
       <file leaf-file-name="MenuWithAuthentication.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/MenuWithAuthentication.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.125">
-              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            <state vertical-scroll-proportion="-2.0833333">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MenuItem.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MenuItem.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Menu/MenuItem.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7862069">
-              <caret line="119" column="32" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
+            <state vertical-scroll-proportion="-25.833334">
+              <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -130,15 +131,15 @@
       <list>
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/bootstrap/menu.php" />
         <option value="$PROJECT_DIR$/resources/views/partials/sidebar.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/app/Http/ViewComposer/SidebarComposer.php" />
         <option value="$PROJECT_DIR$/resources/views/Menu/menuitem.blade.php" />
+        <option value="$PROJECT_DIR$/app/bootstrap/menu.php" />
+        <option value="$PROJECT_DIR$/app/Http/ViewComposer/SidebarComposer.php" />
         <option value="$PROJECT_DIR$/app/MenuWithAuthentication.php" />
         <option value="$PROJECT_DIR$/app/Menu/MenuItem.php" />
-        <option value="$PROJECT_DIR$/app/bootstrap/menu.php" />
+        <option value="$PROJECT_DIR$/config/app.php" />
       </list>
     </option>
   </component>
@@ -376,6 +377,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MenuWithAuthentication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MenuWithAuthentication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -705,10 +728,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/partials/sidebar.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/Menu/menuitem.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        <state vertical-scroll-proportion="-2.5">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -723,50 +746,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/sidebar.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-27.291666">
-          <caret line="200" column="52" selection-start-line="200" selection-start-column="52" selection-end-line="200" selection-end-column="52" />
+        <state vertical-scroll-proportion="-1.4583334">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/ViewComposer/SidebarComposer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.5">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding />
+        <state vertical-scroll-proportion="-13.75">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding>
+            <element signature="e#60#95#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Menu/menuitem.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Menu/MenuItem.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/bootstrap/menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.0">
-          <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
+        <state vertical-scroll-proportion="-25.833334">
+          <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/MenuWithAuthentication.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.125">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        <state vertical-scroll-proportion="-2.0833333">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Menu/MenuItem.php">
+    <entry file="file://$PROJECT_DIR$/app/bootstrap/menu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7862069">
-          <caret line="119" column="32" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
+        <state vertical-scroll-proportion="-6.875">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7517241">
+          <caret line="196" column="61" selection-start-line="196" selection-start-column="61" selection-end-line="196" selection-end-column="61" />
           <folding />
         </state>
       </provider>
