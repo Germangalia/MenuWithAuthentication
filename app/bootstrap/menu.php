@@ -9,17 +9,30 @@
 
 
 //Home
-MenuWithAuthentication::menu
+MenuWithAuthentication::menu()
+    ->title('Home')
+    ->icona('fa-dashboard')
+    ->rol('home')
+    ->permission('home')
+    ->user('sergitur')
+    ->url('/home');
 
 
 
 //Another link
-MenuWithAuthentication::menu
+MenuWithAuthentication::menu()
+    ->title('Another link')
+    ->user(5);
 
 
 
 
 //Multilevel
-MenuWithAuthentication::menu
-    MenuWithAuthentication::menu
-    MenuWithAuthentication::menu
+MenuWithAuthentication::menu()->title('Multilevel')->icona('fa-credit-card');
+    MenuWithAuthentication::menu()->title('Link in level 2')->icona('fa-briefcase');
+    MenuWithAuthentication::menu()->title('Link in level 2')->icona('fa-user');
+
+
+//Propi
+//Multilevel
+MenuWithAuthentication::menu()->title('Últim menú')->icona('fa-dashboard')->url('http://www.google.com');
